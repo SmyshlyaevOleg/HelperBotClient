@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="2024-02-08-3 v.1" author="s_o">
+        <insert tableName="people">
+            <column  name="telegram_id"  value="123456"/>
+            <column  name="full_name"  value="Ivanov Ivan"/>
+            <column  name="user_name"  value="vanos"/>
+        </insert>
+
+        <insert tableName="people">
+            <column  name="telegram_id"  value="654321"/>
+            <column  name="full_name"  value="Petrov Petr"/>
+            <column  name="user_name"  value="petros"/>
+        </insert>
+
+        <insert tableName="people">
+            <column  name="telegram_id"  value="123975"/>
+            <column  name="full_name"  value="Sergeev Sergey"/>
+            <column  name="user_name"  value="sergos"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

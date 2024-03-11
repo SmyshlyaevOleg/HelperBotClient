@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet id="2024-02-08-4 v.1" author="s_o">
+        <insert tableName="message">
+            <column  name="sender_id"  value="654321"/>
+            <column  name="sender_name"  value="Ivanov Ivan"/>
+            <column  name="message"  value="vanos"/>
+            <column  name="created_at"  value="1970-01-01T00:00:00"/>
+            <column  name="status"  value="ok"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

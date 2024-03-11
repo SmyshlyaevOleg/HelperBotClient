@@ -1,0 +1,140 @@
+2023-12-21 20:19:12 ERROR SenderTelegramBot:51 - Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [400] Bad Request: BOT_COMMAND_INVALID
+2023-12-21 20:19:26 INFO  SenderTelegramBot:82 - from 1st methods -> 395010296
+2023-12-21 20:19:26 INFO  SenderTelegramBot:165 - Reply sent
+2023-12-21 20:19:26 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:26 INFO  SenderTelegramBot:87 - from 2nd methods -> 395010296
+2023-12-21 20:19:26 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:26 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:31 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:31 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:31 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:36 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:36 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:36 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:40 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:40 INFO  SenderTelegramBot:99 - chat id ->395010296
+2023-12-21 20:19:40 INFO  SenderTelegramBot:100 - user id ->395010296
+2023-12-21 20:19:41 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:41 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:41 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:44 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:44 INFO  SenderTelegramBot:99 - chat id ->395010296
+2023-12-21 20:19:44 INFO  SenderTelegramBot:100 - user id ->395010296
+2023-12-21 20:19:46 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:46 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:46 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:46 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:46 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:46 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:47 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:47 INFO  SenderTelegramBot:99 - chat id ->395010296
+2023-12-21 20:19:47 INFO  SenderTelegramBot:100 - user id ->395010296
+2023-12-21 20:19:51 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:51 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:51 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:19:51 INFO  SenderTelegramBot:82 - from 1st methods -> 395010296
+2023-12-21 20:19:51 INFO  People:38 - olrem_nilson 395010296
+2023-12-21 20:19:52 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:19:52 INFO  SenderTelegramBot:87 - from 2nd methods -> 395010296
+2023-12-21 20:19:56 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:19:56 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:19:56 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:01 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:01 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:01 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:06 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:06 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:06 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:11 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:11 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:11 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:16 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:16 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:16 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:19 INFO  SenderTelegramBot:82 - from 1st methods -> 395010296
+2023-12-21 20:20:19 INFO  People:38 - olrem_nilson 395010296
+2023-12-21 20:20:19 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:20:19 INFO  SenderTelegramBot:87 - from 2nd methods -> 395010296
+2023-12-21 20:20:21 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:21 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:21 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:26 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:26 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:26 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:31 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:31 INFO  SenderTelegramBot:200 - temp 0
+2023-12-21 20:20:31 INFO  SenderTelegramBot:201 - kafka 0
+2023-12-21 20:20:34 INFO  KafkaConsumer:69 - fullName -> Олег
+2023-12-21 20:20:34 INFO  KafkaConsumer:70 - message id -> 6
+2023-12-21 20:20:34 INFO  KafkaConsumer:71 - message -> Исииа
+2023-12-21 20:20:34 INFO  KafkaConsumer:72 - response -> Ваша заявка успешно рассмотрена
+2023-12-21 20:20:37 INFO  KafkaConsumer:69 - fullName -> Олег
+2023-12-21 20:20:37 INFO  KafkaConsumer:70 - message id -> 6
+2023-12-21 20:20:37 INFO  KafkaConsumer:71 - message -> Исииа
+2023-12-21 20:20:37 INFO  KafkaConsumer:72 - response -> Ваша заявка успешно рассмотрена
+2023-12-21 20:20:37 INFO  SenderTelegramBot:178 - Reply sent
+2023-12-21 20:20:37 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:20:37 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:20:41 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:41 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:20:41 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:20:46 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:46 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:20:46 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:20:51 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:51 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:20:51 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:20:56 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:20:56 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:20:56 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:21:01 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:21:01 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:21:01 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:21:06 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:21:06 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:21:06 INFO  SenderTelegramBot:201 - kafka 6
+2023-12-21 20:21:11 INFO  SenderTelegramBot:197 - Сообщений нет
+2023-12-21 20:21:11 INFO  SenderTelegramBot:200 - temp 6
+2023-12-21 20:21:11 INFO  SenderTelegramBot:201 - kafka 6
+2024-02-04 10:23:43 ERROR SenderTelegramBot:51 - Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [400] Bad Request: BOT_COMMAND_INVALID
+2024-02-05 20:24:56 ERROR SenderTelegramBot:51 - Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [400] Bad Request: BOT_COMMAND_INVALID
+2024-02-05 20:25:31 ERROR SenderTelegramBot:51 - Error executing org.telegram.telegrambots.meta.api.methods.commands.SetMyCommands query: [400] Bad Request: BOT_COMMAND_INVALID
+2024-02-05 20:25:42 INFO  SenderTelegramBot:164 - Reply sent
+2024-02-05 20:25:42 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:25:42 INFO  SenderTelegramBot:99 - chat id ->395010296
+2024-02-05 20:25:42 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:25:42 INFO  SenderTelegramBot:100 - user id ->395010296
+2024-02-05 20:25:42 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:25:47 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:25:47 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:25:47 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:25:48 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:48 INFO  SenderTelegramBot:99 - chat id ->395010296
+2024-02-05 20:25:48 INFO  SenderTelegramBot:100 - user id ->395010296
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:25:50 INFO  SenderTelegramBot:99 - chat id ->395010296
+2024-02-05 20:25:50 INFO  SenderTelegramBot:100 - user id ->395010296
+2024-02-05 20:25:52 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:25:52 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:25:52 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:25:57 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:25:57 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:25:57 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:26:02 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:26:02 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:26:02 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:26:03 INFO  SenderTelegramBot:82 - from 1st methods -> 395010296
+2024-02-05 20:26:03 INFO  People:39 - olrem_nilson 395010296
+2024-02-05 20:26:03 INFO  SenderTelegramBot:177 - Reply sent
+2024-02-05 20:26:03 INFO  SenderTelegramBot:87 - from 2nd methods -> 395010296
+2024-02-05 20:26:07 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:26:07 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:26:07 INFO  SenderTelegramBot:200 - kafka 0
+2024-02-05 20:26:12 INFO  SenderTelegramBot:196 - Сообщений нет
+2024-02-05 20:26:12 INFO  SenderTelegramBot:199 - temp 0
+2024-02-05 20:26:12 INFO  SenderTelegramBot:200 - kafka 0
