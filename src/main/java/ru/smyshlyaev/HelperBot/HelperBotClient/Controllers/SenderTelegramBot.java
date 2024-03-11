@@ -78,13 +78,10 @@ public class SenderTelegramBot extends TelegramLongPollingBot implements BotComm
             fullName = update.getMessage().getFrom().getFirstName();
             userName=update.getMessage().getFrom().getUserName();
 
-          //  botAnswerUtils("/response", kafkaConsumer.getId(),fullName,userId,userName);
-            LOGGER.info("from 1st methods -> " + chatId);
-
             if (update.getMessage().hasText()) {
                 receivedMessage = update.getMessage().getText();
                 botAnswerUtils(receivedMessage, chatId, fullName, userId ,userName);
-                LOGGER.info("from 2nd methods -> " + chatId);
+
             }
 
             //если нажата одна из кнопок бота
@@ -96,10 +93,6 @@ public class SenderTelegramBot extends TelegramLongPollingBot implements BotComm
             receivedMessage = update.getCallbackQuery().getData();
             botAnswerUtils(receivedMessage, chatId, fullName, userId ,userName);
 
-            LOGGER.info("chat id ->" + chatId);
-            LOGGER.info("user id ->" + userId);
-
-            //LOGGER.info("from 3th methods -> " + chatId);
         }
     }
 
@@ -156,11 +149,13 @@ public class SenderTelegramBot extends TelegramLongPollingBot implements BotComm
         }
 
     }
-
     private void startBot(long chatId,long userId, String fullName,String userName) {
         SendMessage message = new SendMessage();
         message.setChatId(chatId);
-        message.setText("Привет, " + fullName + "! Добро пожаловать в мой телеграмм бот. Нажми на интересующую кнопку");
+        message.setText("Привет, " + fullName + "! Добро пожаловать в телеграм бот. Данный телеграмм бот " +
+                "предназначен для отправки различных запросов в какой-либо отдел(например IT отдел компании)." +
+                "Для этого необходимо в чат бота написать возникшую проблему(составить заявку), кторая после попадет на сервер." +
+                "Нажми на интересующую кнопку. Для помощи используй кнопку 'Help'");
         message.setReplyMarkup(Buttons.inlineMarkup());
 
         try {
@@ -206,8 +201,12 @@ public class SenderTelegramBot extends TelegramLongPollingBot implements BotComm
 
                 long getMessageIdFromKafka= kafkaConsumer.getMessageId();
                 if(tempValue!=getMessageIdFromKafka) {
-                    StringBuilder messageForTheUser= new StringBuilder("Ваша заявка " + kafkaConsumer.getMessage() + " ->" + kafkaConsumer.getResponse());
+                    StringBuilder messageForTheUser= new StringBuilder("Ваша заявка: " +"'" + kafkaConsumer.getMessage() +"'" +"\n"
+                            + "id заявки: " + kafkaConsumer.getMessageId()+ " ->" +"\n"
+                            + kafkaConsumer.getResponse() +"\n"
+                            + "Статус заявки изменен");
                     sendHelpText(kafkaConsumer.getChatId(), String.valueOf(messageForTheUser));
+                    getButtons(kafkaConsumer.getChatId());
                 }
                 else{
                     LOGGER.info("Сообщений нет");
@@ -215,6 +214,8 @@ public class SenderTelegramBot extends TelegramLongPollingBot implements BotComm
                 tempValue=kafkaConsumer.getMessageId();
                 LOGGER.info("temp "+tempValue);
                 LOGGER.info("kafka " + getMessageIdFromKafka);
+
+
             }
         }, 0, 5000); // 1000 миллисекунд = 1 секунда // каждые 5 секунд отправлятся запрос о наличии новых сообщений
     }
